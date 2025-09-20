@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ICondominio , getCondominios } from "@/services/api-condominio";
+import { getCondominios, ICondominio } from "@/services/api-condominio";
 
 export default function ListaCondominios() {
     const [condominios, setCondominios] = useState<ICondominio[]>([]);
